@@ -1,1 +1,1 @@
-
+document.querySelectorAll(".year").forEach(x=>x.textContent=new Date().getFullYear());const m=document.querySelector(".menu"),n=document.querySelector(".navlinks");if(m)m.onclick=()=>n.classList.toggle("open");function q(e){e.preventDefault();const x=e.target.querySelector(".note");x.textContent="Form design complete — connect to the client's preferred inbox/form service before launch.";x.style.color="#078dbb";return false;}
